@@ -1,0 +1,23 @@
+<h1>Hellooooo</h1>
+I'm a page, and I like meat
+<br><br>
+<div id="changeMe">
+    <button onclick="changeContent()">Click meeee</button>
+    <br><br>
+    GoodBye, friend
+</div>
+<br><br>
+<script src="./content/project1.js"></script>
+<script>
+    function changeContent() {
+        let projectContent = getProject1()
+
+        htmlString = `<h1>${projectContent.title}</h1>`
+
+        projectContent.body.forEach(paragraph => {
+            htmlString += `<p>${paragraph}<p><br>`
+        })
+
+        document.getElementById('changeMe').innerHTML = htmlString
+    }
+</script>
