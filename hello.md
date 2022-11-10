@@ -11,6 +11,6 @@
 - interesting
 
 ```
-message = "hello bitch"
+message = "hello honey"
 console.log(message)
 ```
