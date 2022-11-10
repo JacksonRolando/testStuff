@@ -6,9 +6,9 @@
 
 #### Doobie doobie doo
 
-- boobs
-- tits
-- ass
+- this
+- is
+- interesting
 
 ```
 message = "hello bitch"
